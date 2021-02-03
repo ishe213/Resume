@@ -1,0 +1,57 @@
+@font-face{
+	font-family: garamond;
+	src: url(https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap);
+	font-family: merriweather
+	src: url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+	font-family: yellowtail;
+	src: url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+}
+body{
+	background: #f3f5f9;
+	font-family: yellowtail;
+}
+.wrapper{
+	display: flex;
+	position: relative;
+}
+img{
+	border-radius: 50%;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.wrapper .profile_picture{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #000000;
+	padding: 30px 0;
+}
+.wrapper .profile_picture ul li {
+	list-style-type: none;
+	padding: 15px;
+	border-bottom: 1px;
+}
+.wrapper .profile_picture ul li .fas{
+	width: 25px;
+}
+.wrapper .profile_picture ul li:hover{
+	background: #594f8d;
+}
+.centerTexts{
+	list-style-type: none;
+	padding-top: 100px;
+	padding-left: 350px;
+}
+.bullet{
+	list-style-type: none;
+}
+.nameFont{
+	font-family: merriweather;
+}
+.nameFontSize{
+	font-size: 44px;
+}
